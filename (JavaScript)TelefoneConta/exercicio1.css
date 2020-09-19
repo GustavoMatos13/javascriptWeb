@@ -1,0 +1,71 @@
+body {
+	width: 400px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+select {
+	border-radius: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=button] {
+	border-radius: 75px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	;
+}
+
+input[type=text] {
+	border: none;
+	background-color: black;
+	width: 400px;
+	height: 45px;
+	border-radius: 10px;
+	color: aliceblue;
+	margin-bottom: 15px;
+
+}
+
+form {
+	width: 450px;
+	height: 600px;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 75px;
+	font-size: 20pt;
+	font-family: Verdana;
+	font-weight: bolder;
+	border: 2px solid #000;
+	animation-delay: 0.1s;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-name: txt;
+}
+
+@keyframes txt {
+	0% {
+		background-color: darkgreen;
+	}
+
+	29% {
+		background-color: darkgreen;
+	}
+
+	30% {
+		background-color: yellow;
+	}
+
+	60% {
+		background-color: yellow;
+	}
+
+	61% {
+		background-color: red;
+	}
+
+	100% {
+		background-color: red;
+	}
+}
